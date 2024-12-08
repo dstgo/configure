@@ -4,13 +4,13 @@ go 1.23.1
 
 require (
 	github.com/dstgo/kratosx v1.0.1
+	github.com/dstgo/manager v1.0.1
 	github.com/envoyproxy/protoc-gen-validate v1.0.4
 	github.com/forgoer/openssl v1.6.0
 	github.com/go-kratos/kratos/v2 v2.7.3
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/google/uuid v1.6.0
 	github.com/json-iterator/go v1.1.12
-	github.com/dstgo/manager v1.0.1
 	go.uber.org/automaxprocs v1.5.3
 	google.golang.org/genproto/googleapis/api v0.0.0-20240429193739-8cf5692501f6
 	google.golang.org/grpc v1.63.2
@@ -78,7 +78,6 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/klauspost/compress v1.17.8 // indirect
-	github.com/limes-cloud/kratosx v1.0.52 // indirect
 	github.com/lufia/plan9stats v0.0.0-20240408141607-282e7b5d6b74 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
