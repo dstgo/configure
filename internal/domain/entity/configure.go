@@ -1,6 +1,6 @@
 package entity
 
-import "github.com/limes-cloud/kratosx/types"
+import "github.com/dstgo/kratosx/types"
 
 type Configure struct {
 	types.BaseModel

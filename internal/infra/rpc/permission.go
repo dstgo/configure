@@ -3,13 +3,13 @@ package rpc
 import (
 	"sync"
 
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
-	"github.com/limes-cloud/manager/api/manager/auth"
-	v1 "github.com/limes-cloud/manager/api/manager/auth/v1"
-	resourcev1 "github.com/limes-cloud/manager/api/manager/resource/v1"
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
+	"github.com/dstgo/manager/api/manager/auth"
+	v1 "github.com/dstgo/manager/api/manager/auth/v1"
+	resourcev1 "github.com/dstgo/manager/api/manager/resource/v1"
 
-	"github.com/limes-cloud/configure/api/configure/errors"
+	"github.com/dstgo/configure/api/configure/errors"
 )
 
 const (

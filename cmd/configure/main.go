@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/config"
+	"github.com/dstgo/kratosx/pkg/printx"
+	"github.com/dstgo/kratosx/pkg/webserver"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	thttp "github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/config"
-	"github.com/limes-cloud/kratosx/pkg/printx"
-	"github.com/limes-cloud/kratosx/pkg/webserver"
 	_ "go.uber.org/automaxprocs"
 
-	"github.com/limes-cloud/configure/internal/app"
-	"github.com/limes-cloud/configure/internal/conf"
+	"github.com/dstgo/configure/internal/app"
+	"github.com/dstgo/configure/internal/conf"
 )
 
 const (

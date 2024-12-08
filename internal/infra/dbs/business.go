@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/limes-cloud/kratosx"
+	"github.com/dstgo/kratosx"
 	"google.golang.org/protobuf/proto"
 	"gorm.io/gorm/clause"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/types"
 )
 
 type Business struct {

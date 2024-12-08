@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/limes-cloud/kratosx/config"
+	"github.com/dstgo/kratosx/config"
 )
 
 func TestSource_Watch(t *testing.T) {

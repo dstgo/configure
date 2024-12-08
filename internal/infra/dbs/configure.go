@@ -4,12 +4,12 @@ import (
 	"context"
 	"sync"
 
+	"github.com/dstgo/kratosx"
 	"github.com/go-redis/redis/v8"
 	json "github.com/json-iterator/go"
-	"github.com/limes-cloud/kratosx"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/types"
 )
 
 type msg struct {

@@ -5,18 +5,18 @@ import (
 
 	ktypes "github.com/dstgo/kratosx/types"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/types"
 
+	"github.com/dstgo/kratosx"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
 
-	pb "github.com/limes-cloud/configure/api/configure/business/v1"
-	"github.com/limes-cloud/configure/internal/conf"
-	"github.com/limes-cloud/configure/internal/domain/service"
-	"github.com/limes-cloud/configure/internal/infra/dbs"
-	"github.com/limes-cloud/configure/internal/infra/rpc"
+	pb "github.com/dstgo/configure/api/configure/business/v1"
+	"github.com/dstgo/configure/internal/conf"
+	"github.com/dstgo/configure/internal/domain/service"
+	"github.com/dstgo/configure/internal/infra/dbs"
+	"github.com/dstgo/configure/internal/infra/rpc"
 )
 
 type Business struct {

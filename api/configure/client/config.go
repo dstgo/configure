@@ -7,7 +7,7 @@ import (
 	"github.com/go-kratos/kratos/v2/config"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 
-	pb "github.com/limes-cloud/configure/api/configure/configure/v1"
+	pb "github.com/dstgo/configure/api/configure/configure/v1"
 )
 
 type source struct {

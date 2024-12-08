@@ -8,7 +8,7 @@ import (
 
 	json "github.com/json-iterator/go"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/domain/entity"
 )
 
 type TemplateValue struct {

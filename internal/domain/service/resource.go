@@ -4,16 +4,17 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/internal/types"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/domain/entity"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 	json "github.com/json-iterator/go"
-	"github.com/limes-cloud/configure/api/configure/errors"
-	"github.com/limes-cloud/configure/internal/conf"
-	"github.com/limes-cloud/configure/internal/domain/repository"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
+
+	"github.com/dstgo/configure/api/configure/errors"
+	"github.com/dstgo/configure/internal/conf"
+	"github.com/dstgo/configure/internal/domain/repository"
 )
 
 type Resource struct {

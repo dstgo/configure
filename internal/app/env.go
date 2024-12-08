@@ -3,20 +3,20 @@ package app
 import (
 	"context"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/crypto"
 	ktypes "github.com/dstgo/kratosx/types"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/google/uuid"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/crypto"
 
-	pb "github.com/limes-cloud/configure/api/configure/env/v1"
-	"github.com/limes-cloud/configure/internal/conf"
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/domain/service"
-	"github.com/limes-cloud/configure/internal/infra/dbs"
-	"github.com/limes-cloud/configure/internal/infra/rpc"
-	"github.com/limes-cloud/configure/internal/types"
+	pb "github.com/dstgo/configure/api/configure/env/v1"
+	"github.com/dstgo/configure/internal/conf"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/domain/service"
+	"github.com/dstgo/configure/internal/infra/dbs"
+	"github.com/dstgo/configure/internal/infra/rpc"
+	"github.com/dstgo/configure/internal/types"
 )
 
 type Env struct {

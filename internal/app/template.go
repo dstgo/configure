@@ -3,19 +3,19 @@ package app
 import (
 	"context"
 
+	"github.com/dstgo/kratosx"
+	"github.com/dstgo/kratosx/pkg/valx"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	"github.com/limes-cloud/kratosx"
-	"github.com/limes-cloud/kratosx/pkg/valx"
 
-	"github.com/limes-cloud/configure/api/configure/errors"
-	pb "github.com/limes-cloud/configure/api/configure/template/v1"
-	"github.com/limes-cloud/configure/internal/conf"
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/domain/service"
-	"github.com/limes-cloud/configure/internal/infra/dbs"
-	"github.com/limes-cloud/configure/internal/infra/rpc"
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/api/configure/errors"
+	pb "github.com/dstgo/configure/api/configure/template/v1"
+	"github.com/dstgo/configure/internal/conf"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/domain/service"
+	"github.com/dstgo/configure/internal/infra/dbs"
+	"github.com/dstgo/configure/internal/infra/rpc"
+	"github.com/dstgo/configure/internal/types"
 )
 
 type Template struct {

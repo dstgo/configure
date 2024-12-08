@@ -1,10 +1,10 @@
 package repository
 
 import (
-	"github.com/limes-cloud/kratosx"
+	"github.com/dstgo/kratosx"
 
-	"github.com/limes-cloud/configure/internal/domain/entity"
-	"github.com/limes-cloud/configure/internal/types"
+	"github.com/dstgo/configure/internal/domain/entity"
+	"github.com/dstgo/configure/internal/types"
 )
 
 type Configure interface {

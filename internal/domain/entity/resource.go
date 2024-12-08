@@ -1,6 +1,6 @@
 package entity
 
-import "github.com/limes-cloud/kratosx/types"
+import "github.com/dstgo/kratosx/types"
 
 type Resource struct {
 	Keyword         string            `json:"keyword" gorm:"column:keyword"`

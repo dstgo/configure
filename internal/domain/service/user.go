@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 	"time"
 
+	"github.com/dstgo/kratosx"
 	"github.com/forgoer/openssl"
 	json "github.com/json-iterator/go"
-	"github.com/limes-cloud/kratosx"
 
-	"github.com/limes-cloud/configure/api/configure/errors"
-	"github.com/limes-cloud/configure/internal/conf"
+	"github.com/dstgo/configure/api/configure/errors"
+	"github.com/dstgo/configure/internal/conf"
 )
 
 type User struct {

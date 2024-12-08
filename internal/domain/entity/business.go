@@ -3,9 +3,10 @@ package entity
 import (
 	"strconv"
 
+	"github.com/dstgo/kratosx/types"
 	json "github.com/json-iterator/go"
-	"github.com/limes-cloud/configure/api/configure/errors"
-	"github.com/limes-cloud/kratosx/types"
+
+	"github.com/dstgo/configure/api/configure/errors"
 )
 
 type Business struct {

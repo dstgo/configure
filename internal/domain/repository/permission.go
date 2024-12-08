@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/limes-cloud/kratosx"
+import "github.com/dstgo/kratosx"
 
 type Permission interface {
 	//GetPermission 获取当前用户，指定key的权限

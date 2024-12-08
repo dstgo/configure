@@ -3,12 +3,13 @@ package app
 import (
 	"context"
 
+	"github.com/dstgo/kratosx"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
-	pb "github.com/limes-cloud/configure/api/configure/user/v1"
-	"github.com/limes-cloud/configure/internal/conf"
-	"github.com/limes-cloud/configure/internal/domain/service"
-	"github.com/limes-cloud/kratosx"
+
+	pb "github.com/dstgo/configure/api/configure/user/v1"
+	"github.com/dstgo/configure/internal/conf"
+	"github.com/dstgo/configure/internal/domain/service"
 )
 
 type User struct {
